@@ -1,4 +1,4 @@
-
+import random
 from tkinter import *
 
 expression = ''
@@ -34,5 +34,33 @@ button_frame.pack()
 
 user_input = StringVar()    # Container to hold values
 user_input.set('0')
+
+
+def press(num):
+    global expression
+
+    expression = expression + str(num)
+    user_input.set(expression)
+
+
+def on_equal():
+    try:
+        global expression
+
+        total = str(eval(expression))   # eval()  evaluate arbitrary Python expressions from a string-based input
+        user_input.set(total)
+
+        expression = ''
+
+    except:
+        user_input.set(' error ')
+        expression = ''
+
+
+def clear():
+    global expression
+    expression = ''
+    user_input.set('0')  # Setting val to 0 when Clear
+
 
 SCREEN.mainloop()
