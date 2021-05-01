@@ -10,6 +10,8 @@ This is a simple yet effective calculator made with Tkinter library in Python.
 It has a built-in note section for taking quick notes.
 Dark color palette is used to make the UI comfortable at night.
 
+calculatorTk.py md5 checksum 111AAC032D608BC0BC046FDAB7B23319 
+
 Open Source code feel free to use and modify.
 Note: You can compile to make it a stand-alone file.
 
