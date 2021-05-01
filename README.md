@@ -6,9 +6,13 @@
 
 ## Description
 
-This is a simple yet effective calculator made with Tkinter library in Python.
+Nice Calculator is a simple yet effective calculator made with Tkinter library in Python.
 It has a built-in note section for taking quick notes.
 Dark color palette is used to make the UI comfortable at night.
+
+Final release:
+
+Nice Calculator v1.0
 
 calculatorTk.py md5 checksum 111AAC032D608BC0BC046FDAB7B23319 
 
