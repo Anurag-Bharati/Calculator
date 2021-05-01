@@ -14,7 +14,7 @@ Final release:
 
 Nice Calculator v1.0
 
-   calculatorTk.py 
+    calculatorTk.py 
    
     md5 checksum 111AAC032D608BC0BC046FDAB7B23319 
 
