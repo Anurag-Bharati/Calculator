@@ -13,7 +13,10 @@ Dark color palette is used to make the UI comfortable at night.
 Final release:
 
 Nice Calculator v1.0
-calculatorTk.py md5 checksum 111AAC032D608BC0BC046FDAB7B23319 
+
+   calculatorTk.py 
+   
+    md5 checksum 111AAC032D608BC0BC046FDAB7B23319 
 
 Open Source code feel free to use and modify.
 Note: You can compile to make it a stand-alone file.
