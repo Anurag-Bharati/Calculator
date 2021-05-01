@@ -21,10 +21,10 @@ Note: You can compile to make it a stand-alone file.
 
 #### Installation
 
-   A. Copying code:
+   A. Copying code: (requires Python3)
    
     1. Copy the code in the file named "CalculatorTk.py"
-    2. Copy ico file and paste it next to the main file.
+    2. Download ico file and paste it next to the main file. (Note: renaming the .ico file may cause errors so update the code if you renamed .ico at the line no. 26)
     3. Run the .py file
    
    B. Pycharm:
