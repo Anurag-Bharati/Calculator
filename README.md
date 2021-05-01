@@ -11,7 +11,7 @@ It has a built-in note section for taking quick notes.
 Dark color palette is used to make the UI comfortable at night.
 
 Open Source code feel free to use and modify.
-
+Note: You can compile to make it a stand-alone file.
 
 ---
 
