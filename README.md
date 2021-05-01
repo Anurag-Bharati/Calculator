@@ -34,7 +34,8 @@ Dark color palette is used to make the UI comfortable at night.
 
  1. Pycharm as IDE
  
-    1a.Lib used:
+    a. Lib used:
+    
         1. Tkinter
         2. Random
       
