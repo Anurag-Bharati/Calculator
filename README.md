@@ -10,6 +10,7 @@ This is a Simple yet effective calculator made with Tkinter library in Python.
 It has a built-in note section for taking quick notes while calculating.
 Dark color palette is used to make the UI comfortable at night.
 
+
 ---
 
 ## How To Use
@@ -44,4 +45,6 @@ Dark color palette is used to make the UI comfortable at night.
 ## Author Info
 
 - Facebook - [Anurag Bharati](https://www.facebook.com/frost.king.1042/)
+
+Project_work of AnuragBharati 210030 "Make a calculator using Tkinter library in Python".
 
