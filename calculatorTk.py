@@ -63,4 +63,92 @@ def clear():
     user_input.set('0')  # Setting val to 0 when Clear
 
 
+calc_display = Entry(button_frame, textvariable = user_input, justify = 'right', bd = button_border_size,
+                     font = ('arial', 20, 'bold'), bg = "#4E4E50", fg = "#C3073F")
+calc_display.grid(row = 0, column = 0, ipadx = 18, columnspan = 6, ipady = 25, pady = 40)
+
+button1 = Button(button_frame, font = (button_font, 12), text = ' 1 ', bd = button_border_size, relief = button_style,
+                 fg = font_color, bg = grid_color, height = button_height, width = button_width,
+                 command = lambda: press(1))
+button1.grid(row = 1, column = 0)
+
+button2 = Button(button_frame, font = (button_font, 12), text = ' 2 ', bd = button_border_size, relief = button_style,
+                 fg = font_color, bg = grid_color, height = button_height, width = button_width,
+                 command = lambda: press(2))
+button2.grid(row = 1, column = 1)
+
+button3 = Button(button_frame, font = (button_font, 12), text = ' 3 ', bd = button_border_size, relief = button_style,
+                 fg = font_color, bg = grid_color, height = button_height, width = button_width,
+                 command = lambda: press(3))
+button3.grid(row = 1, column = 2)
+
+plus = Button(button_frame, font = (button_font, 12), text = ' + ', bd = button_border_size, relief = button_style,
+              fg = font_color, bg = c_sign, height = button_height, width = button_width, command = lambda: press("+"))
+plus.grid(row = 1, column = 3)
+
+button4 = Button(button_frame, font = (button_font, 12), text = ' 4 ', bd = button_border_size, relief = button_style,
+                 fg = font_color, bg = grid_color, height = button_height, width = button_width,
+                 command = lambda: press(4))
+button4.grid(row = 2, column = 0)
+
+button5 = Button(button_frame, font = (button_font, 12), text = ' 5 ', bd = button_border_size, relief = button_style,
+                 fg = font_color, bg = grid_color, height = button_height, width = button_width,
+                 command = lambda: press(5))
+button5.grid(row = 2, column = 1)
+
+button6 = Button(button_frame, font = (button_font, 12), text = ' 6 ', bd = button_border_size, relief = button_style,
+                 fg = font_color, bg = grid_color, height = button_height, width = button_width,
+                 command = lambda: press(6))
+button6.grid(row = 2, column = 2)
+
+minus = Button(button_frame, font = (button_font, 12), text = ' - ', bd = button_border_size, relief = button_style,
+               fg = font_color, bg = c_sign, height = button_height, width = button_width, command = lambda: press("-"))
+minus.grid(row = 2, column = 3)
+
+button7 = Button(button_frame, font = (button_font, 12), text = ' 7 ', bd = button_border_size, relief = button_style,
+                 fg = font_color, bg = grid_color, height = button_height, width = button_width,
+                 command = lambda: press(7))
+button7.grid(row = 3, column = 0)
+
+button8 = Button(button_frame, font = (button_font, 12), text = ' 8 ', bd = button_border_size, relief = button_style,
+                 fg = font_color, bg = grid_color, height = button_height, width = button_width,
+                 command = lambda: press(8))
+button8.grid(row = 3, column = 1)
+
+button9 = Button(button_frame, font = (button_font, 12), text = ' 9 ', bd = button_border_size, relief = button_style,
+                 fg = font_color, bg = grid_color, height = button_height, width = button_width,
+                 command = lambda: press(9))
+button9.grid(row = 3, column = 2)
+
+multiply = Button(button_frame, font = (button_font, 12), text = ' * ', bd = button_border_size, relief = button_style,
+                  fg = font_color, bg = c_sign, height = button_height, width = button_width,
+                  command = lambda: press("*"))
+multiply.grid(row = 3, column = 3)
+
+button0 = Button(button_frame, font = (button_font, 12), text = ' 0 ', bd = button_border_size, relief = button_style,
+                 fg = font_color, bg = grid_color, height = button_height, width = button_width,
+                 command = lambda: press(0))
+button0.grid(row = 4, column = 0)
+
+decimal = Button(button_frame, font = (button_font, 12), text = '.', bd = button_border_size, relief = button_style,
+                 fg = font_color, bg = grid_color, height = button_height, width = button_width,
+                 command = lambda: press('.'))
+decimal.grid(row = 4, column = 1)
+
+clear = Button(button_frame, font = (button_font, 12), text = 'C', bd = button_border_size, relief = button_style,
+               fg = font_color, height = button_height, width = button_width, bg = c_clear, command = clear)
+clear.grid(row = 4, column = 2)
+
+divide = Button(button_frame, font = (button_font, 12), text = ' / ', bd = button_border_size, relief = button_style,
+                fg = font_color, bg = c_sign, height = button_height, width = button_width,
+                command = lambda: press("/"))
+divide.grid(row = 4, column = 3)
+
+equal = Button(button_frame, font = (button_font, 12), text = ' = ', bd = button_border_size, relief = button_style,
+               fg = font_color, bg = c_equal, command = on_equal, height = button_height, cursor = on_hover)
+equal.grid(sticky = 'ewns', row = 5, column = 0, columnspan = 4, pady = 10)
+
+
+
+
 SCREEN.mainloop()
