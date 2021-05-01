@@ -148,7 +148,15 @@ equal = Button(button_frame, font = (button_font, 12), text = ' = ', bd = button
                fg = font_color, bg = c_equal, command = on_equal, height = button_height, cursor = on_hover)
 equal.grid(sticky = 'ewns', row = 5, column = 0, columnspan = 4, pady = 10)
 
+text_message = Text(SCREEN, yscrollcommand = True, bg = border_color, fg = "#FFFFFF", pady = 5, padx = 2, bd = 5,
+                    height = 5,
+                    width = 45, cursor = "mouse")
 
+Tips = ["Use the scroll wheel to move up/down.", "Press enter to change the line.", "Use arrow keys to navigate.",
+        "You can erase me :(", "Select by left click and drag.", "Made with <3 by Anurag 210030 :P"]
+text_message.insert(INSERT, "Your notes here!\n"
+                            f"Tip: {Tips[random.randint(0, 5)]} \n\n\n\nBruh")
+text_message.pack()
 
 
 SCREEN.mainloop()
